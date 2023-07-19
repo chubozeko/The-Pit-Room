@@ -1,0 +1,42 @@
+Begin Object Class=/Script/LevelSequence.LevelSequence Name="FadeOut"
+   Begin Object Class=/Script/MovieScene.MovieScene Name="MovieScene_0"
+      Begin Object Class=/Script/MovieScene.MovieSceneNodeGroupCollection Name="NodeGroupCollection" Archetype=MovieSceneNodeGroupCollection'/Script/MovieScene.Default__MovieScene:NodeGroupCollection'
+      End Object
+      Begin Object Class=/Script/MovieSceneTracks.MovieSceneFadeTrack Name="MovieSceneFadeTrack_0"
+         Begin Object Class=/Script/MovieSceneTracks.MovieSceneFadeSection Name="MovieSceneFadeSection_0"
+            Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneFadeSection:EaseInFunction'
+            End Object
+            Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneFadeSection:EaseOutFunction'
+            End Object
+         End Object
+      End Object
+   End Object
+   Begin Object Name="MovieScene_0"
+      Begin Object Name="NodeGroupCollection"
+      End Object
+      Begin Object Name="MovieSceneFadeTrack_0"
+         Begin Object Name="MovieSceneFadeSection_0"
+            Begin Object Name="EaseInFunction"
+            End Object
+            Begin Object Name="EaseOutFunction"
+            End Object
+            FloatCurve=(Times=((),(Value=12000)),Values=((),(Value=1.000000)),DefaultValue=1.000000,bHasDefaultValue=True)
+            Easing=(EaseIn=MovieSceneBuiltInEasingFunction'FadeOut:MovieScene_0.MovieSceneFadeTrack_0.MovieSceneFadeSection_0.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'FadeOut:MovieScene_0.MovieSceneFadeTrack_0.MovieSceneFadeSection_0.EaseOutFunction')
+            Signature=088B6F8C46AFB7443BD073B71561BEAE
+         End Object
+         Sections(0)=MovieSceneFadeSection'"MovieSceneFadeSection_0"'
+         EvaluationFieldGuid=B5097AEA4884816F88405B9205C7FE74
+         EvaluationField=(Entries=((Section=MovieSceneFadeSection'"MovieSceneFadeSection_0"',ForcedTime=(Value=-2147483648))))
+         SortingOrder=0
+         Signature=B5097AEA4884816F88405B9205C7FE74
+      End Object
+      MasterTracks(0)=MovieSceneFadeTrack'"MovieSceneFadeTrack_0"'
+      PlaybackRange=Inclusive:0:Exclusive:12000
+      TickResolution=(Numerator=24000)
+      DisplayRate=(Numerator=60)
+      EditorData=(ViewStart=-0.500000,ViewEnd=5.500000,WorkStart=-0.500000,WorkEnd=5.500000)
+      Signature=3D10D3414D3F7AEE7EB618A207D7632D
+   End Object
+   MovieScene=MovieScene'"MovieScene_0"'
+   Signature=20207A294AF82E1901310D9547FC2123
+End Object

@@ -1,0 +1,6 @@
+RFoot, LFoot, Pelvis
+LFoot, RFoot, Pelvis
+LFoot, Pelvis, RFoot
+Pelvis, LFoot, RFoot
+Pelvis, RFoot, LFoot
+RFoot, Pelvis, LFoot

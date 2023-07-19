@@ -51,6 +51,7 @@ Plugins/*/Binaries/*
 
 # Builds
 Build/*
+Builds/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
@@ -72,3 +73,8 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Assets and Characters
+Content/Assets/*
+# TODO: exclude character textures (move them to individual folders)
+Content/Characters/**/Textures/*
