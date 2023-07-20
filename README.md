@@ -22,4 +22,4 @@ These are the asset packs that were used in this project, along with the default
 - [Vive Mocap Kit](https://www.unrealengine.com/marketplace/en-US/item/c5714954833e45629e233185a216b21c) by Yuri N Kalinin [Paid]
 
 ## Demo
-[The Pit Room v.1.1.3](https://youtu.be/NReYzOWY56w)
+[![The Pit Room v.1.1.3](TPR_thumbnail.png)](https://youtu.be/NReYzOWY56w "The Pit Room - Demo")
