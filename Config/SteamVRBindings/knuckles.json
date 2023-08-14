@@ -135,6 +135,28 @@
 				},
 				{
 					"mode": "button",
+					"path": "/user/hand/left/input/b",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/BeginPitRoom_Scary"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/b",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/BeginPitRoom_NonScary"
+						}
+					}
+				},
+				{
+					"mode": "button",
 					"path": "/user/hand/right/input/a",
 					"inputs":
 					{

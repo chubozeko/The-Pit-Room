@@ -176,6 +176,14 @@
 			"type": "boolean"
 		},
 		{
+			"name": "/actions/main/in/BeginPitRoom_Scary",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/BeginPitRoom_NonScary",
+			"type": "boolean"
+		},
+		{
 			"name": "/actions/main/in/GoToNextStage",
 			"type": "boolean"
 		},
@@ -439,6 +447,8 @@
 			"/actions/main/in/PreviousAvatar": "PreviousAvatar",
 			"/actions/main/in/NextAvatar": "NextAvatar",
 			"/actions/main/in/SelectAvatar": "SelectAvatar",
+			"/actions/main/in/BeginPitRoom_Scary": "BeginPitRoom_Scary",
+			"/actions/main/in/BeginPitRoom_NonScary": "BeginPitRoom_NonScary",
 			"/actions/main/in/GoToNextStage": "GoToNextStage",
 			"/actions/main/in/MoveX axis": "MoveX",
 			"/actions/main/in/MoveY axis": "MoveY",

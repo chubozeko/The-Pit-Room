@@ -5,7 +5,7 @@
 			"app_key": "application.generated.ue.the-pit-room-20979098.unrealeditor.exe",
 			"launch_type": "url",
 			"url": "steam://launch/",
-			"action_manifest_path": "C:/Users/chubo/OneDrive/Documents/Unreal Projects/Pit-Room-VR-MSc.-Thesis-/Config/SteamVRBindings/steamvr_manifest.json",
+			"action_manifest_path": "C:/Users/chubo/OneDrive/Documents/Unreal Projects/The-Pit-Room/Config/SteamVRBindings/steamvr_manifest.json",
 			"strings":
 			{
 				"en_us":
